@@ -1,0 +1,7 @@
+applications:
+- name: Pokemon-angular
+  memory: 1G 
+  path: dist/ng-pokedex
+  random-route: false
+  buildpacks:
+  - staticfile_buildpack
